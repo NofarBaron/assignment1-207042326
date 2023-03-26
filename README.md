@@ -4,10 +4,9 @@ assignment1-Nofar Baron created by GitHub Classroom.
 
 Nofar Baron 
 ID: 207042326
-https://nofarbaron.github.io/assignment1-207042326/
+https://web-development-environments-2023.github.io/assignment1-207042326/
 
 This website was written about my grandparants on my mother's side. 
-
 The website includes a short story about my grandmother.
 Also you can find old photos of her and their childrens. 
 You can listen to her favorit playlist and like&share her Facebook page. In this website you can find a QR to this web. 
