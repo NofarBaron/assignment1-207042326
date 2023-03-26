@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="emojionearea.min.css"/>
 <meta charset="UTF-8">
 <title>My Web</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="emojionearea.min.js"></script>
 </head>
 
 <body style="background-color:#9e8ff4;">
@@ -70,39 +72,63 @@
 <br/>
 <br/>
 <br/>
+<h1>About Me </h1>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<h3> about me </h3>
-<br/>
-<br/>
-<br/>
+<h2> 
+  My name is Rebecca Dabach and I was born in Turkish in 1943. 
+  <br>
+  When I was 5 years old all my family, including my 4 sisters immigrate to Israel on a ship to Haifa port. we lived in Haifa for 5 years and then moved to Tel Aviv. 
+  Later, when I was 20, I got married to Abraham Dabach and we had 3 children and 6 grandsons. We settled down in Yafo Tel-Aviv. I really love cooking and baking cookies , travel with my friends, and visit my sisters. In my free time I usually watch Turkish telenovelas.
+</h2>
 </section>
 
+
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h3>my photos</h3>
-<br/>
-<br/>
-<br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <h1>
+    <b>
+     My Photos
+    </b>
+  </h1>
+  <table class="tablePhotos" align="center">
+    <tr>
+      <td>
+        <img style="float:right;" src=1.jpg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=2.jpeg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=3.jpeg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=4.jpeg class="imgTable"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img style="float:right;" src=5.jpg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=6.jpeg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=7.jpg class="imgTable"/>
+      </td>
+      <td>
+        <img style="float:right;" src=8.jpeg class="imgTable"/>
+      </td>
+    </tr>
+  </table>
+  <br/>
+  <br/>
+  <br/>
 </section>
 
 <section id="playlist" class="section">
@@ -116,17 +142,13 @@
 <br/>
 <br/>
 <br/>
+<h1>My Playlist</h1>
+<br/>
+<center>
+  <iframe class="framePlayList" width="560" height="315" src="https://www.youtube.com/embed/QhWUqfzkQN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<h3>my playlist</h3>
-<br/>
-<br/>
-<br/>
-</section>
 
 <section id="like" class="section">
 <br/>
@@ -141,15 +163,11 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <h1>Give Me A Like</h1>
+<br/>
+<br/>
 <center>
-  <!--        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-yuval5210%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>-->
-<!--        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2F314978198%2F&width=0&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>-->
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2F314978198%2F&width=450&layout=standard&action=like&size=large&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https://Web-Development-Environments-2023.github.io/207042326/&width=450&layout=standard&action=like&size=large&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </center>
 <br/>
 <br/>
@@ -167,15 +185,16 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <h1>Scan My Code</h1>
 <br/>
 <br/>
+<table align="center" class="tableQR">
+  <tr>
+    <td>
+      <img src="qr.png" id="qrcode" class="imgQR"/>
+    </td>
+  </tr>
+</table>
 <br/>
 </section>
 
@@ -247,7 +266,7 @@
   <br/>
   Web 2.0 - בכדי לבצע חיפוש עבור הערך "איטליה", המשתמש יכול להשתמש במנוע חיפוש, הוא יקבל מספר תוצאות אך לא כולן יהיו בהכרח רלוונטיות.
   <br/>
-  Web 3.0 - כדי לבצע חיפוש עבור הערך "איטליה", המשתמש יכול להשתמש במנוע חיפוש, הוא יקבל מספר תוצאות שונו עבור ערך זה. רוב התוצאות אשר יקבל יהיו רלוונטיות למשתמש הרגיל, וחלקן יהיו יותר מותאמות עבור המשתמש הספציפי שביצע את השאילתה.
+  Web 3.0 - כדי לבצע חיפוש עבור הערך "איטליה", המשתמש יכול להשתמש במנוע חיפוש, הוא יקבל מספר תוצאות שונות עבור ערך זה. רוב התוצאות אשר יקבל יהיו רלוונטיות למשתמש הרגיל, וחלקן יהיו יותר מותאמות עבור המשתמש הספציפי שביצע את השאילתה.
 </p>
 <br/>
 <br/>
@@ -255,18 +274,6 @@
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -296,13 +303,21 @@
     <input type="hidden" name="_next" value="https://Web-Development-Environments-2023/assignment1-207042326/">
     <input type="hidden" name="_template" value="basic">
     <button type="submit">Send</button>
-    
     <button type="reset">Reset</button>
   </form>
 </h3>
 <br/>
 <br/>
 </section>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#myTextarea").emojioneArea({
+      pickerPosition: "top"
+    });
+  });
+</script>
 
 
 <script type="text/javascript">
